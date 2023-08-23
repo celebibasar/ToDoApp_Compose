@@ -96,7 +96,7 @@ fun HomeScreen(
                     },
                     modifier = Modifier.fillMaxWidth(),
                     label = {
-                        Text(text = "Title")
+                        Text(text = "Title", color = Color.White)
                     }, colors = TextFieldDefaults.outlinedTextFieldColors(
                         focusedBorderColor = Color.White,
                         focusedLabelColor = Color.White,
@@ -111,7 +111,7 @@ fun HomeScreen(
                     },
                     modifier = Modifier.fillMaxWidth(),
                     label = {
-                        Text(text = "Sub Title")
+                        Text(text = "Sub Title", color = Color.White)
                     }, colors = TextFieldDefaults.outlinedTextFieldColors(
                         focusedBorderColor = Color.White,
                         focusedLabelColor = Color.White,
